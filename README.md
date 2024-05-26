@@ -1,2 +1,1 @@
-# web-dev-208
-Our projects for our web development class
+# Web-dev-class-208

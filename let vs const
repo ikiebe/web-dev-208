@@ -1,0 +1,23 @@
+in the old days , if we want to declare a variable in javascript, well use the var keyword. var
+stands for variable. However in the recent flavour of javascript we don't need to use the var keyword anymore
+Var is used for global variable, Global variables are the ones that can be used anywher in the program.
+
+let is a relatively new keyword in javascript used to declare variables, it is preferred to the var keyword.
+both let and const are block-scoped i.e. they only exist within the block of code where they are defined
+
+{
+  let x = 5;
+  const y = 15;
+  //both x and y are accessible here
+}
+
+// x and y are not accessible here
+
+a major differences between let and const is that with let we can declare a variable that can be reassigned
+throughout the program.
+
+let x = 5;
+let x = 10; 
+console.log(x); // this would log 10 to the console.
+
+as regarding the const, it is used to declare variables that would not change in the program,
